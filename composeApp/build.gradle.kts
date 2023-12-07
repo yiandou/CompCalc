@@ -46,6 +46,8 @@ kotlin {
             implementation(compose.material)
             @OptIn(ExperimentalComposeLibrary::class)
             implementation(compose.components.resources)
+            implementation("com.ionspin.kotlin:bignum:0.3.8")
+            implementation("ai.hypergraph:kotlingrad:0.4.7")
         }
     }
 }
